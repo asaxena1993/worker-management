@@ -1,2 +1,2 @@
 # worker-management
-Invoke binaries and mange child worker threads
+Invoke binaries and manage child worker threads

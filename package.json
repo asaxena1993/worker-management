@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js workers 18 data 150",
+    "test": "mocha '*/*.spec.js'"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +14,9 @@
     "request": "^2.88.0"
   },
   "devDependencies": {
-    "eslint": "^6.5.1"
+    "eslint": "^6.5.1",
+    "mocha": "^6.2.1",
+    "rewire": "^4.0.1",
+    "sinon": "^7.5.0"
   }
 }
