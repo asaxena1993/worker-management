@@ -64,7 +64,7 @@ The worker can be find enclosed (`bin/worker.mac`), it's a compiled go applicati
 
 `npm install`  *$ Install all the required dependencies*
 
-`npm start`  *$ Start the program*
+`node app.js`  *$ Start the program*
 
 `npm test`  *$ Run the unit test cases*
 

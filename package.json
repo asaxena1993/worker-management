@@ -6,7 +6,6 @@
   "scripts": {
     "lint": "eslint '**/*.js'",
     "lint:fix": "npm run lint -- --fix",
-    "start": "node app.js",
     "test": "npm run test:coverage npm run test:unit",
     "test:coverage": "nyc",
     "test:unit": "mocha './test/lib/*.spec.js'"
