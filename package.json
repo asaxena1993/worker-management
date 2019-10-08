@@ -4,10 +4,12 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "lint": "eslint '**/*.js'",
+    "lint:fix": "npm run lint -- --fix",
     "start": "node app.js",
     "test": "npm run test:coverage npm run test:unit",
     "test:coverage": "nyc",
-    "test:unit": "mocha './test/**/*.spec.js'"
+    "test:unit": "mocha './test/lib/*.spec.js'"
   },
   "author": "",
   "license": "ISC",
@@ -17,9 +19,10 @@
   },
   "devDependencies": {
     "eslint": "^6.5.1",
+    "eslint-config-loopback": "^13.1.0",
     "mocha": "^6.2.1",
+    "nock": "^11.4.0",
     "nyc": "^14.1.1",
-    "rewire": "^4.0.1",
-    "sinon": "^7.5.0"
+    "rewire": "^4.0.1"
   }
 }
